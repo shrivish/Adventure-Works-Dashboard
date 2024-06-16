@@ -2,11 +2,13 @@
 
 ## Preview of the Dashboard (Power BI Service)
 
- ![Screenshot 2024-06-15 161443](https://app.powerbi.com/links/PZAN2VK-ud?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare)
+![WhatsApp Image 2024-06-16 at 17 28 46_98ca0550](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/d585b62b-931e-429d-a3dc-d67d6bcec79a)
 
- ![Screenshot 2024-06-15 164317](https://app.powerbi.com/links/PZAN2VK-ud?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare&bookmarkGuid=0babc5f4-bc1c-4e09-b755-1896fb489e5c)
+![WhatsApp Image 2024-06-16 at 17 27 38_2e41b04c](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/141cd665-6c15-4ba1-b521-b0e33fc72aaf)
 
- ![Screenshot 2024-06-15 161346](https://app.powerbi.com/links/PZAN2VK-ud?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare&bookmarkGuid=0e674ba0-4ba2-4b58-a393-fd0ef36b3e65)
+![WhatsApp Image 2024-06-16 at 17 28 16_a0be3508](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/dd53935f-8f74-43f8-9046-9fcba5359bbd)
+
+![WhatsApp Image 2024-06-16 at 17 26 55_058836ed](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/b1ad9431-6f20-47bf-879f-ec7dd8441fb8)
 
 ### Dashboard Link : https://app.powerbi.com/links/2j_7lX3Gfz?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare
 ## Problem Statement
@@ -36,7 +38,7 @@ By addressing these goals, the dashboard will serve as a pivotal tool for Advent
 
 
 - Step 5 : Rectified the Relational Model by linking Primary keys, foreign keys and updating table cardinalities.
-    ![Screenshot 2024-06-15 162747](https://github.com/Abtg08/Adventure-Works-Dashboard-Report/assets/87989296/efc6969d-bcfa-4ef8-b212-b2c351fd2bbf)
+    ![image](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/2cc12ff4-a5ab-4fe6-b0fb-070eed5caf19)
 
 
 - Step 6 : Visualized the dashboard structure based on three key questions:
@@ -63,20 +65,24 @@ By addressing these goals, the dashboard will serve as a pivotal tool for Advent
 
         Total Revenue, Total Profit, Total Orders, Return Rate, Orders by Category, Monthly Revenue chart etc.
 
-    ![Screenshot 2024-06-15 161443](https://github.com/Abtg08/Adventure-Works-Dashboard-Report/assets/87989296/6aea78c0-2c56-4815-a28a-280e120fe854)
+    ![WhatsApp Image 2024-06-16 at 17 28 46_db9d766b](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/08b4fa86-b987-4184-8887-fc4b1efe1969)
+
 
 
 - Step 9 : Also built the following custom tooltip to show the KPIs for each category when hovered on Category chart.
 
-    ![Screenshot 2024-06-15 161300](https://github.com/Abtg08/Adventure-Works-Dashboard-Report/assets/87989296/c200ef4b-7eba-4ce2-866f-426ccbbedc34)
+    ![image](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/368e30f9-2727-47e9-b83d-ab9e46bd3d31)
+
 
 - Step 10 : The *Product Detail* page includes visuals like Total Profit, Return Rate etc for a selected product from the product slicer.
 
-    ![Screenshot 2024-06-15 164317](https://github.com/Abtg08/Adventure-Works-Dashboard-Report/assets/87989296/4ae7bcf3-e297-46b3-937c-cbad6af30eeb)
+    ![WhatsApp Image 2024-06-16 at 17 28 16_df99bd79](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/dd21f34f-17c5-4d1c-897f-b841e9f0f0e5)
+
 
 - Step 11 : The *Customer Detail* page shows the total number of unique customers and the statistical relationship between customer purchasing the products on the basis of their *Occupation*, *Income Level* etc.
     
-   ![Screenshot 2024-06-15 161346](https://github.com/Abtg08/Adventure-Works-Dashboard-Report/assets/87989296/7b98f5a7-4717-45f3-a33b-bf257efe1115)
+   ![WhatsApp Image 2024-06-16 at 17 27 38_dbabf469](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/8b6ccd73-0f10-4dd6-88e0-68fc44dcc844)
+
 
 
 - Step 12 : Added a custom filter functionality to the *Executive Dashboard* page that can be toggled on and off:
