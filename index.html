@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdventureWorks Dashboard Insights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section-title {
+            color: #333;
+            border-bottom: 2px solid #0078d7;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .steps ol {
+            background: #fff;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .steps li {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        .link-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #0078d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .link-button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AdventureWorks Dashboard Insights</h1>
+</header>
+
+<div class="container">
+    <section id="overview">
+        <h2 class="section-title">Dashboard Overview</h2>
+        <div class="gallery">
+            <img src="https://app.powerbi.com/links/PZAN2VK-ud?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare" alt="Dashboard Overview">
+            <img src="https://app.powerbi.com/links/PZAN2VK-ud?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare&bookmarkGuid=37526c5a-09ae-4a17-b37d-467a64ad579b" alt="Product Details">
+            <img src="https://app.powerbi.com/links/PZAN2VK-ud?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare&bookmarkGuid=902f87ca-88aa-493d-8baf-bc125e073e00" alt="Customer Insights">
+<!--             <img src="https://github.com/Abtg08/Adventure-Works-Dashboard-Report/assets/87989296/4734889e-9e67-4958-8708-e678b15174f6" alt="Sales Metrics"> -->
+        </div>
+        <p><a href="https://app.powerbi.com/links/2j_7lX3Gfz?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare" class="link-button">View Dashboard</a></p>
+    </section>
+
+    <section id="objective">
+        <h2 class="section-title">Project Objective</h2>
+        <p>The goal of this project is to create a comprehensive dashboard for AdventureWorks that addresses key business needs:</p>
+        <ul>
+            <li><strong>KPI Tracking:</strong> Monitor essential metrics like revenue, profit, and order volume to identify trends and potential issues quickly.</li>
+            <li><strong>Regional Performance Comparison:</strong> Assess performance across different regions to identify strengths and areas for improvement.</li>
+            <li><strong>Product Trends Analysis:</strong> Understand product performance to make informed decisions about inventory and marketing.</li>
+            <li><strong>High-Value Customer Identification:</strong> Use advanced analytics to profile and target high-value customers effectively.</li>
+        </ul>
+    </section>
+
+    <section id="steps">
+        <h2 class="section-title">Implementation Steps</h2>
+        <div class="steps">
+            <ol>
+                <li><strong>Data Loading:</strong> Imported the dataset into Power Query Editor for initial processing.</li>
+                <li><strong>Data Transformation:</strong> Applied necessary transformations, including creating dimension tables like Date and Metrics.</li>
+                <li><strong>Calculated Tables:</strong> Developed Sales Data and Returns Data tables for detailed sales and returns analysis.</li>
+                <li><strong>Measure Creation:</strong> Defined key measures to extract insights from the dataset.</li>
+                <li><strong>Data Modeling:</strong> Established relationships between tables using primary and foreign keys, ensuring correct cardinality.</li>
+                <li><strong>Dashboard Design:</strong> Addressed three key questions to guide the design:
+                    <ul>
+                        <li>What type of data is being handled? (Time series, categorical, geospatial, hierarchical)</li>
+                        <li>What is the message to communicate? (Category comparison over time)</li>
+                        <li>Who is the audience? (Managers)</li>
+                    </ul>
+                </li>
+                <li><strong>Dashboard Pages:</strong> 
+                    <ul>
+                        <li><strong>Executive Dashboard:</strong> Provides an overview of key metrics such as Total Revenue, Total Profit, Orders by Category, etc.</li>
+                        <li><strong>Product Detail:</strong> Offers detailed insights into product performance, including profit and return rates.</li>
+                        <li><strong>Customer Detail:</strong> Analyzes customer demographics and purchasing behavior.</li>
+                    </ul>
+                </li>
+                <li><strong>Custom Tooltips:</strong> Added tooltips to enhance data exploration.</li>
+                <li><strong>Executive Dashboard Features:</strong> Visuals include total revenue, profit, orders, return rate, and monthly revenue.</li>
+                <li><strong>Product Detail Page:</strong> Detailed metrics for selected products using slicers.</li>
+                <li><strong>Customer Detail Page:</strong> Visualizes customer data based on occupation, income level, etc.</li>
+                <li><strong>Custom Filters:</strong> Implemented togglable filters for dynamic data exploration.</li>
+                <li><strong>Navigation:</strong> Added buttons for seamless navigation across different dashboard pages.</li>
+                <li><strong>Deployment:</strong> Uploaded the completed dashboard to Power BI Service.</li>
+            </ol>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
