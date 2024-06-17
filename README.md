@@ -10,7 +10,7 @@
 
 ![WhatsApp Image 2024-06-16 at 17 26 55_058836ed](https://github.com/shrivish/Adventure-Works-Dashboard/assets/86420582/b1ad9431-6f20-47bf-879f-ec7dd8441fb8)
 
-### Dashboard Link : https://app.powerbi.com/links/2j_7lX3Gfz?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare
+### Dashboard Link : https://app.powerbi.com/links/PZAN2VK-ud?ctid=3be611e8-6b6a-448c-8616-8c993bba1879&pbi_source=linkShare
 ## Problem Statement
 
 AdventureWorks requires a sophisticated dashboard to overcome the current limitations in data analysis and performance tracking. The dashboard must achieve the following expanded goals:
